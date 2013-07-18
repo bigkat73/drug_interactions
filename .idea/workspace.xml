@@ -2,17 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/factories/medication_factory.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/drug_interactions.iml" afterPath="$PROJECT_DIR$/.idea/drug_interactions.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/medications/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/medications/edit.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/medications/index.html.erb" afterPath="$PROJECT_DIR$/app/views/medications/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/interactions/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/interactions/index.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interaction.rb" afterPath="$PROJECT_DIR$/app/models/interaction.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/medications_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/medications_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374163604917" ignored="false" />
-    <file path="/Gemfile" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374165503164" ignored="false" />
+    <file path="/Dummy.txt" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170216690" ignored="false" />
+    <file path="/Gemfile" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170522154" ignored="false" />
     <file path="/seeds.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374166832464" ignored="false" />
-    <file path="/database.yml" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374166183025" ignored="false" />
+    <file path="/database.yml" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374168683998" ignored="false" />
     <file path="/routes.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167415507" ignored="false" />
     <file path="/production.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167788483" ignored="false" />
     <file path="/application.html.erb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167850662" ignored="false" />
+    <file path="/index.html.erb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167917830" ignored="false" />
+    <file path="/edit.html.erb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167927858" ignored="false" />
+    <file path="/medications_controller_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374169349948" ignored="false" />
+    <file path="/medications_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374169046061" ignored="false" />
+    <file path="/interactions_controller_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170414325" ignored="false" />
+    <file path="/interaction_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374169730078" ignored="false" />
+    <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
+    <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
+    <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170766294" ignored="false" />
+    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170788337" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,37 +55,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="medications_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="20" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
+            <state line="10" column="27" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file leaf-file-name="interactions_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="72" selection-start="710" selection-end="710" vertical-scroll-proportion="0.29069766">
+            <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <file leaf-file-name="interaction.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="35" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
+            <state line="6" column="30" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="interactions_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="19" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
+            <state line="38" column="27" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.json.jbuilder" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.json.jbuilder" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interactions/show.json.jbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/application.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="34" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interaction_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/models/interaction_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="7" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -86,15 +145,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/migrate/20130718161840_create_medications.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/medications/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/medications/edit.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/medications_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/interaction_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/factories/medication_factory.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/interaction.rb" />
+        <option value="$PROJECT_DIR$/app/views/interactions/index.json.jbuilder" />
       </list>
     </option>
   </component>
@@ -159,6 +225,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="factories" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -187,24 +321,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug_interactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drug_interactions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -231,7 +347,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
+              <option name="myItemId" value="interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drug_interactions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,6 +468,97 @@
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="LAUNCH_JS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
+      <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
+      <module name="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
+      <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
+      <module name="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="ANSICON" value="" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*.feature" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_TAGS_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="TEST_NAME_FILTER" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_ARGS" VALUE="--color -r features" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="VERBOSE_OPTION" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
+      <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -538,75 +763,16 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130718161957_create_medications.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/medications/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/assets/medications.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="549" selection-end="549" vertical-scroll-proportion="0.24436091">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="435" selection-end="435" vertical-scroll-proportion="0.18796992">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="19" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="20" selection-start="830" selection-end="830" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -614,6 +780,97 @@
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="72" selection-start="710" selection-end="710" vertical-scroll-proportion="0.29069766">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="29" selection-start="508" selection-end="508" vertical-scroll-proportion="0.31954888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/medications_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="1623" selection-end="1623" vertical-scroll-proportion="0.48872182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="27" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/interaction_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="7" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/factories/medication_factory.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="93" selection-end="93" vertical-scroll-proportion="0.13157895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="34" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="27" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/interactions/show.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jbuilder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

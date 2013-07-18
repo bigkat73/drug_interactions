@@ -19,6 +19,10 @@ require 'spec_helper'
 # that an instance is receiving a specific message.
 
 describe InteractionsController do
+  render_views
+
+  let!(:medication1){ FactoryGirl.create(:medication, nui: '', name: '')}
+  let!(:medication2){ FactoryGirl.create(:medication, nui: '', name: '')}
 
   # This should return the minimal set of attributes required to create a valid
   # Interaction. As you add validations to Interaction, be sure to
@@ -30,130 +34,10 @@ describe InteractionsController do
   # InteractionsController. Be sure to keep this updated too.
   let(:valid_session) { {} }
 
-  describe "GET index" do
-    it "assigns all interactions as @interactions" do
-      interaction = Interaction.create! valid_attributes
-      get :index, {}, valid_session
-      assigns(:interactions).should eq([interaction])
-    end
-  end
-
-  describe "GET show" do
-    it "assigns the requested interaction as @interaction" do
-      interaction = Interaction.create! valid_attributes
-      get :show, {:id => interaction.to_param}, valid_session
-      assigns(:interaction).should eq(interaction)
-    end
-  end
-
-  describe "GET new" do
-    it "assigns a new interaction as @interaction" do
-      get :new, {}, valid_session
-      assigns(:interaction).should be_a_new(Interaction)
-    end
-  end
-
-  describe "GET edit" do
-    it "assigns the requested interaction as @interaction" do
-      interaction = Interaction.create! valid_attributes
-      get :edit, {:id => interaction.to_param}, valid_session
-      assigns(:interaction).should eq(interaction)
-    end
-  end
-
-  describe "POST create" do
-    describe "with valid params" do
-      it "creates a new Interaction" do
-        expect {
-          post :create, {:interaction => valid_attributes}, valid_session
-        }.to change(Interaction, :count).by(1)
-      end
-
-      it "assigns a newly created interaction as @interaction" do
-        post :create, {:interaction => valid_attributes}, valid_session
-        assigns(:interaction).should be_a(Interaction)
-        assigns(:interaction).should be_persisted
-      end
-
-      it "redirects to the created interaction" do
-        post :create, {:interaction => valid_attributes}, valid_session
-        response.should redirect_to(Interaction.last)
-      end
-    end
-
-    describe "with invalid params" do
-      it "assigns a newly created but unsaved interaction as @interaction" do
-        # Trigger the behavior that occurs when invalid params are submitted
-        Interaction.any_instance.stub(:save).and_return(false)
-        post :create, {:interaction => {  }}, valid_session
-        assigns(:interaction).should be_a_new(Interaction)
-      end
-
-      it "re-renders the 'new' template" do
-        # Trigger the behavior that occurs when invalid params are submitted
-        Interaction.any_instance.stub(:save).and_return(false)
-        post :create, {:interaction => {  }}, valid_session
-        response.should render_template("new")
-      end
-    end
-  end
-
-  describe "PUT update" do
-    describe "with valid params" do
-      it "updates the requested interaction" do
-        interaction = Interaction.create! valid_attributes
-        # Assuming there are no other interactions in the database, this
-        # specifies that the Interaction created on the previous line
-        # receives the :update_attributes message with whatever params are
-        # submitted in the request.
-        Interaction.any_instance.should_receive(:update).with({ "these" => "params" })
-        put :update, {:id => interaction.to_param, :interaction => { "these" => "params" }}, valid_session
-      end
-
-      it "assigns the requested interaction as @interaction" do
-        interaction = Interaction.create! valid_attributes
-        put :update, {:id => interaction.to_param, :interaction => valid_attributes}, valid_session
-        assigns(:interaction).should eq(interaction)
-      end
-
-      it "redirects to the interaction" do
-        interaction = Interaction.create! valid_attributes
-        put :update, {:id => interaction.to_param, :interaction => valid_attributes}, valid_session
-        response.should redirect_to(interaction)
-      end
-    end
-
-    describe "with invalid params" do
-      it "assigns the interaction as @interaction" do
-        interaction = Interaction.create! valid_attributes
-        # Trigger the behavior that occurs when invalid params are submitted
-        Interaction.any_instance.stub(:save).and_return(false)
-        put :update, {:id => interaction.to_param, :interaction => {  }}, valid_session
-        assigns(:interaction).should eq(interaction)
-      end
-
-      it "re-renders the 'edit' template" do
-        interaction = Interaction.create! valid_attributes
-        # Trigger the behavior that occurs when invalid params are submitted
-        Interaction.any_instance.stub(:save).and_return(false)
-        put :update, {:id => interaction.to_param, :interaction => {  }}, valid_session
-        response.should render_template("edit")
-      end
-    end
-  end
-
-  describe "DELETE destroy" do
-    it "destroys the requested interaction" do
-      interaction = Interaction.create! valid_attributes
-      expect {
-        delete :destroy, {:id => interaction.to_param}, valid_session
-      }.to change(Interaction, :count).by(-1)
-    end
-
-    it "redirects to the interactions list" do
-      interaction = Interaction.create! valid_attributes
-      delete :destroy, {:id => interaction.to_param}, valid_session
-      response.should redirect_to(interactions_url)
+  describe "GET interactions index" do
+    it "should return a good response" do
+      get :index, format: :json
+      response.should be_success
     end
   end
 

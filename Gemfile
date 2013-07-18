@@ -29,6 +29,7 @@ gem 'pg'
 gem 'zurb-foundation', '~> 4.0.0'
 
 gem 'rspec-rails'
+gem 'factory_girl_rails'
 
 gem 'rails_12factor'
 

@@ -3,7 +3,7 @@
   <component name="DataSourceManagerImpl" format="xml" hash="131956541">
     <data-source source="LOCAL" name="Rails drug_interactions: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="cab783b8-be84-41f5-881f-d41a780359e4">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/interactions_development</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/interactions_test</jdbc-url>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>

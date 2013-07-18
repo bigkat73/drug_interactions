@@ -19,11 +19,13 @@ require 'spec_helper'
 # that an instance is receiving a specific message.
 
 describe MedicationsController do
-
+  before(:all) do
+    Medication.destroy_all
+  end
   # This should return the minimal set of attributes required to create a valid
   # Medication. As you add validations to Medication, be sure to
   # adjust the attributes here as well.
-  let(:valid_attributes) { { "nui" => "MyString" } }
+  let(:valid_attributes) { { nui: "MyString", name: 'MyName' } }
 
   # This should return the minimal set of values that should be in the session
   # in order to pass any filters (e.g. authentication) defined in
