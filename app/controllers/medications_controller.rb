@@ -5,7 +5,7 @@ class MedicationsController < ApplicationController
   # GET /medications.json
   def index
     @medications = Medication.active
-    @medications = @medications.where('name like ?', params[:q].upcase + '%') if params[:q]
+    @medications = @medications.where('name like ?', params[:q].humanize + '%') if params[:q]
     #respond_to do |format|
     #  format.html
     #  format.json { render json: @medications, callback: params[:callback]}
