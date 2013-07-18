@@ -1,7 +1,7 @@
-Jbuilder.encode do |json|
-    json.set! :interactions do
-        json.array! @interaction.interactions do |interaction|
-            json.set! :severity, interaction[:severity]
-        end
+json.interactions @interaction.interactions do |interaction|
+    json.medications interaction[:medications] do |med|
+        json.id med[:id]
+        json.name med[:name]
     end
+    json.severity interaction[:severity]
 end

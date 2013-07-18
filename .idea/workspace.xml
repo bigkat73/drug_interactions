@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/interactions/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/drug_interactions.iml" afterPath="$PROJECT_DIR$/.idea/drug_interactions.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interaction.rb" afterPath="$PROJECT_DIR$/app/models/interaction.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" afterPath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +28,7 @@
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/conditions_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="/index.json.jbuilder" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177641980" ignored="false" />
-    <file path="/index.json.jpbuilder" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374181322018" ignored="false" />
+    <file path="/index.json.jpbuilder" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374181736504" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <file leaf-file-name="index.json.jpbuilder" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="0.075187966">
+            <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.05639098">
               <folding />
             </state>
           </provider>
@@ -947,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="11" selection-start="187" selection-end="187" vertical-scroll-proportion="0.075187966">
+        <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.05639098">
           <folding />
         </state>
       </provider>
