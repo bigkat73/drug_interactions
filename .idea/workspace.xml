@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" afterPath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interaction.rb" afterPath="$PROJECT_DIR$/app/models/interaction.rb" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +22,7 @@
     <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
     <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
     <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374180110633" ignored="false" />
-    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374180627675" ignored="false" />
+    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374181782992" ignored="false" />
     <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176523765" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/spec_helper.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
@@ -57,19 +57,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interaction.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="interaction.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="175" selection-end="325" vertical-scroll-proportion="0.0">
+            <state line="16" column="27" selection-start="320" selection-end="320" vertical-scroll-proportion="0.30075186">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.json.jpbuilder" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.json.jpbuilder" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.05639098">
+            <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,8 +134,8 @@
         <option value="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/interaction.rb" />
         <option value="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
+        <option value="$PROJECT_DIR$/app/models/interaction.rb" />
       </list>
     </option>
   </component>
@@ -933,16 +933,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="175" selection-end="325" vertical-scroll-proportion="0.0">
+        <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder">
+    <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="28" selection-start="170" selection-end="170" vertical-scroll-proportion="0.05639098">
+        <state line="16" column="27" selection-start="320" selection-end="320" vertical-scroll-proportion="0.30075186">
           <folding />
         </state>
       </provider>

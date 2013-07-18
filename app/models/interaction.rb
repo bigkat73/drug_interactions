@@ -14,7 +14,7 @@ class Interaction
           {id: 216, name: 'Aspirin'},
           {id: 355, name: 'Warfarin'}
         ],
-        severity: 'none'
+        severity: 'Critical'
       }
     ]
   end
