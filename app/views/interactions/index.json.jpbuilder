@@ -1,4 +1,4 @@
-json.interactions @interaction.interactions do |interaction|
+json.interactions @interactions do |interaction|
     json.medications interaction[:medications] do |med|
         json.id med[:id]
         json.name med[:name]

@@ -4,7 +4,9 @@ class InteractionsController < ApplicationController
   # GET /interactions
   # GET /interactions.json
   def index
-    @interaction = Interaction.new(params[:medications])
+    med_ids = params[:medication_ids] || []
+    @interaction = Interaction.new(med_ids)
+    @interactions = @interaction.interactions
   end
 
   # GET /interactions/1
