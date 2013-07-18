@@ -27,6 +27,9 @@ gem 'jpbuilder'
 
 gem 'pg'
 
+gem 'pry'
+gem 'pry-nav'
+
 gem 'zurb-foundation', '~> 4.0.0'
 
 gem 'rspec-rails'

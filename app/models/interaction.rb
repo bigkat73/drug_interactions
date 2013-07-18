@@ -7,4 +7,16 @@ class Interaction
     @medications = medications
   end
 
+  def interactions
+    [
+      {
+        medications: [
+          {id: 216, name: 'Aspirin'},
+          {id: 355, name: 'Warfarin'}
+        ],
+        severity: 'none'
+      }
+    ]
+  end
+
 end
