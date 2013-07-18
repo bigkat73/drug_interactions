@@ -22,7 +22,7 @@
     <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
     <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
     <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374184610876" ignored="false" />
-    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374186319919" ignored="false" />
+    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374186556382" ignored="false" />
     <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176523765" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/spec_helper.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
@@ -78,7 +78,7 @@
       <file leaf-file-name="interaction.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="12" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.92105263">
+            <state line="54" column="0" selection-start="1692" selection-end="1699" vertical-scroll-proportion="0.8270677">
               <folding />
             </state>
           </provider>
@@ -946,7 +946,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="12" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.92105263">
+        <state line="54" column="0" selection-start="1692" selection-end="1699" vertical-scroll-proportion="0.8270677">
           <folding />
         </state>
       </provider>
