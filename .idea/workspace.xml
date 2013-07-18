@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/medications/index.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/medications/index.json.jbuilder.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/medications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" afterPath="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,6 +28,7 @@
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/conditions_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="/index.json.jbuilder" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177641980" ignored="false" />
+    <file path="/index.json.jpbuilder" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177937922" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.json.jpbuilder" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jpbuilder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="33" selection-start="75" selection-end="75" vertical-scroll-proportion="0.019354839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="interaction.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="medications_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="medications_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="222" selection-end="354" vertical-scroll-proportion="0.13548388">
+            <state line="11" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,15 +136,6 @@
           </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="2718" column="14" selection-start="63279" selection-end="63280" vertical-scroll-proportion="-1.1111112">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.json.jbuilder" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/interactions/index.json.jbuilder">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="26" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,10 +171,10 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/medication.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
         <option value="$PROJECT_DIR$/config/initializers/jpbuilder.rb" />
         <option value="$PROJECT_DIR$/app/views/medications/index.json.jbuilder" />
         <option value="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
       </list>
     </option>
   </component>
@@ -765,13 +764,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="2081" height="1352" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3061425" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3061425" sideWeight="0.67045456" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32954547" sideWeight="0.5002457" order="-1" side_tool="true" content_ui="tabs" />
@@ -916,13 +915,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jpbuilder">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="3" selection-start="138" selection-end="138" vertical-scroll-proportion="0.058064517">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="761" selection-end="761" vertical-scroll-proportion="0.0">
@@ -951,6 +943,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jbuilder.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
@@ -958,9 +957,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jpbuilder">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="222" selection-end="354" vertical-scroll-proportion="0.13548388">
+        <state line="1" column="33" selection-start="75" selection-end="75" vertical-scroll-proportion="0.019354839">
           <folding />
         </state>
       </provider>
