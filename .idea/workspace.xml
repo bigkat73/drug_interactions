@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config/initializers/jpbuilder.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/medications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -16,7 +18,7 @@
     <file path="/index.html.erb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167917830" ignored="false" />
     <file path="/edit.html.erb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374167927858" ignored="false" />
     <file path="/medications_controller_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374169349948" ignored="false" />
-    <file path="/medications_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177548885" ignored="false" />
+    <file path="/medications_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374184959730" ignored="false" />
     <file path="/interactions_controller_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374175167029" ignored="false" />
     <file path="/interaction_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374169730078" ignored="false" />
     <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
@@ -48,10 +50,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="interactions_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="interactions_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.11278196">
+            <state line="6" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="medications_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.13157895">
               <folding />
             </state>
           </provider>
@@ -112,12 +123,12 @@
         <option value="$PROJECT_DIR$/app/models/medication.rb" />
         <option value="$PROJECT_DIR$/config/initializers/jpbuilder.rb" />
         <option value="$PROJECT_DIR$/app/views/medications/index.json.jbuilder" />
-        <option value="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
         <option value="$PROJECT_DIR$/app/models/interaction.rb" />
         <option value="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
       </list>
     </option>
   </component>
@@ -548,6 +559,26 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest">
       <predefined_log_file id="RUBY_TESTUNIT" enabled="true" />
       <module name="" />
@@ -866,20 +897,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/jpbuilder.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="50" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/medications/index.json.jbuilder.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
@@ -924,7 +941,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.11278196">
+        <state line="6" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="238" selection-end="238" vertical-scroll-proportion="0.13157895">
           <folding />
         </state>
       </provider>
