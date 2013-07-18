@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/medication.rb" afterPath="$PROJECT_DIR$/app/models/medication.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/medications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +23,7 @@
     <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
     <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170766294" ignored="false" />
     <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170788337" ignored="false" />
-    <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176297078" ignored="false" />
+    <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176523765" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="interactions_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="interactions_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+            <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.096491225">
               <folding />
             </state>
           </provider>
@@ -63,19 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interactions_controller_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="interactions_controller_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="73" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.45112783">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="27" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+            <state line="24" column="50" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +82,7 @@
       <file leaf-file-name="medication.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/medication.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="16" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -799,13 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/interactions/show.json.jbuilder">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="52" vertical-scroll-proportion="0.0">
@@ -844,13 +826,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/medication.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="11" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
@@ -870,7 +845,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/interactions_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="73" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.45112783">
+        <state line="24" column="50" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/medication.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="56" selection-start="245" selection-end="245" vertical-scroll-proportion="0.096491225">
           <folding />
         </state>
       </provider>
