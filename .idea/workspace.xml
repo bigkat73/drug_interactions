@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/medications_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interaction.rb" afterPath="$PROJECT_DIR$/app/models/interaction.rb" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,7 +22,7 @@
     <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
     <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
     <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374184610876" ignored="false" />
-    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374184464943" ignored="false" />
+    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374186319919" ignored="false" />
     <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176523765" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/spec_helper.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
@@ -57,10 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="medications_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="medications_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="72" selection-start="294" selection-end="294" vertical-scroll-proportion="0.13157895">
+            <state line="32" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interaction.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="interaction.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="18" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+            <state line="49" column="12" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.92105263">
               <folding />
             </state>
           </provider>
@@ -124,9 +124,9 @@
         <option value="$PROJECT_DIR$/app/views/medications/index.json.jpbuilder" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
-        <option value="$PROJECT_DIR$/app/models/interaction.rb" />
         <option value="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/medications_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/interaction.rb" />
       </list>
     </option>
   </component>
@@ -930,13 +930,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/interactions_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="85" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
@@ -946,7 +939,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/medications_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="72" selection-start="294" selection-end="294" vertical-scroll-proportion="0.13157895">
+        <state line="32" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="12" selection-start="1627" selection-end="1627" vertical-scroll-proportion="0.92105263">
           <folding />
         </state>
       </provider>
