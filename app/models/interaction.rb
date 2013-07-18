@@ -11,7 +11,10 @@ class Interaction
     interactions = []
     @medication_ids.each_with_index do |m_id, i|
       (i+1).upto(@medication_ids.size-1) do |j|
-        interactions << interaction(m_id, @medication_ids[j])
+        med1, med2, severity = interaction(m_id, @medication_ids[j])
+        if severity != 'none'
+          interactions << formatted_interaction(med1, med2, severity)
+        end
       end
     end
     interactions
@@ -20,33 +23,29 @@ class Interaction
   def interaction(medication_1_id, medication_2_id)
     medication_1 = Medication.where(id: medication_1_id).first
     medication_2 = Medication.where(id: medication_2_id).first
-    if medication_1 && medication_2
-      {
-        medications: [{
-          id: medication_1_id,
-          name: medication_1.name
-        },{
-          id: medication_2_id,
-          name: medication_2.name
-        }],
-        severity: find_interaction_severity(medication_1,medication_2)
-      }
+    severity = if medication_1 && medication_2
+      find_interaction_severity(medication_1,medication_2)
     else
-      {
-        medications: [{
-          id: medication_1_id,
-          name: medication_1.present? ? medication_1.name : 'unknown'
-        },{
-          id: medication_2_id,
-          name: medication_2.present? ? medication_2.name : 'unknown'
-        }],
-        severity: 'none'
-      }
+      'none'
     end
+    [medication_1, medication_2, severity]
   end
 
   def find_interaction_severity(medication_1, medication_2)
     'Critical'
+  end
+
+  def formatted_interaction(medication_1, medication_2, severity)
+    {
+      medications: [{
+        id: medication_1.id,
+        name: medication_1.name
+      },{
+        id: medication_2.id,
+        name: medication_2.name
+      }],
+      severity: severity
+    }
   end
 
 end

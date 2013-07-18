@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ca3923e-e915-4084-8a4f-be5b49344641" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" afterPath="$PROJECT_DIR$/app/views/interactions/index.json.jpbuilder" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/interaction.rb" afterPath="$PROJECT_DIR$/app/models/interaction.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/interactions_controller.rb" />
     </list>
     <ignored path="drug_interactions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +22,7 @@
     <file path="/medication_factory.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170148062" ignored="false" />
     <file path="$PROJECT_DIR$/../../multi-symptom-processor-prototype/app/models/demo.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374170218112" ignored="false" />
     <file path="/interactions_controller.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374183565662" ignored="false" />
-    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374183953188" ignored="false" />
+    <file path="/interaction.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374184464943" ignored="false" />
     <file path="/medication.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374176523765" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/spec_helper.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
     <file path="$PROJECT_DIR$/../../api-clinical/spec/apis/v1/symptom_names_spec.rb" changelist="8ca3923e-e915-4084-8a4f-be5b49344641" time="1374177189624" ignored="false" />
@@ -71,7 +69,7 @@
       <file leaf-file-name="interaction.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="16" selection-start="395" selection-end="395" vertical-scroll-proportion="0.30075186">
+            <state line="42" column="9" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.7894737">
               <folding />
             </state>
           </provider>
@@ -926,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/interaction.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="395" selection-end="395" vertical-scroll-proportion="0.30075186">
+        <state line="42" column="9" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.7894737">
           <folding />
         </state>
       </provider>
