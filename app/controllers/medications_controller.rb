@@ -5,6 +5,10 @@ class MedicationsController < ApplicationController
   # GET /medications.json
   def index
     @medications = Medication.active
+    #respond_to do |format|
+    #  format.html
+    #  format.json { render json: @medications, callback: params[:callback]}
+    #end
   end
 
   # GET /medications/1
