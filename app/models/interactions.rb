@@ -1,5 +1,4 @@
 class Interactions
-  include ActiveModel::Model
 
   attr_accessor :medication_ids
 
