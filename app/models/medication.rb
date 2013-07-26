@@ -11,7 +11,7 @@ class Medication < ActiveRecord::Base
   end
 
   def severity
-    @severity = Interaction.severity(self, interaction_med)
+    @severity ||= Interaction.severity(self, interaction_med)
   end
 
   def formatted_interaction
