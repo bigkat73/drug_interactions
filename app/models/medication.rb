@@ -3,6 +3,8 @@ class Medication < ActiveRecord::Base
   attr_accessor :interaction_med
   attr_reader :severity
 
+  after_create :populate_nui
+
   scope :active, -> { where('nui IS NOT NULL').order(:name) }
 
   def interaction_severity_to(medication)
@@ -25,6 +27,12 @@ class Medication < ActiveRecord::Base
       }],
       severity: severity
     }
+  end
+
+  def populate_nui
+  end
+
+  def find_nui
   end
 
 end
