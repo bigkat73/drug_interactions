@@ -7,6 +7,9 @@ require 'csv'
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+#clear old db
+Medication.destroy_all
+
 CSV.foreach(Rails.root.join('lib','assets','medications.csv')) do |line|
   if Medication.where(id: line[0]).blank?
     puts "trying to import #{line[0]} -> #{line[2]}"
