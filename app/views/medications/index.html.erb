@@ -5,6 +5,7 @@
     <tr>
       <th>Nui</th>
       <th>Name</th>
+      <th>RxCUI</th>
       <th></th>
       <th></th>
       <th></th>
@@ -14,8 +15,9 @@
   <tbody>
     <% @medications.each do |medication| %>
       <tr>
-        <td><%= medication.nui %></td>
         <td><%= medication.name %></td>
+        <td><%= medication.nui %></td>
+        <td><%= medication.rx_cui %></td>
         <td><%= link_to 'Show', medication %></td>
         <td><%= link_to 'Edit', edit_medication_path(medication) %></td>
         <td><%= link_to 'Destroy', medication, method: :delete, data: { confirm: 'Are you sure?' } %></td>
