@@ -21,8 +21,30 @@
   </head>
 
   <body>
+  
+    <nav class="top-bar">
+      <ul class="title-area">
+        <li class="name">
+          <h1><%= link_to 'Medication Interactions', '#' %></h1>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+      <ul class="left">
+        <li class="divider"></li>
+        <li class="name">
+          <h1><%= link_to 'Interactions', interactions_path %></h1>
+        </li>
+        <li class="divider"></li>
+        <li class="name">
+          <h1><%= link_to 'List Medications', medications_path %></h1>
+        </li>
+      </ul>
+      </section>
+    </nav>
 
-    <%= yield %>
+    <div style="margin-right: 10px;margin-left: 10px;">
+      <%= yield %>
+    </div>
 
     
     <%= javascript_include_tag "application" %>
