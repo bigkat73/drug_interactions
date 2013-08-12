@@ -29,20 +29,38 @@ describe RxNav do
 
 	end
 
-  context 'looking up interactions' do
-    let(:medication) { FactoryGirl.create(:medication, nui: 'N0000147852', name: 'Fluoxetine') }
-    let(:medication2){ FactoryGirl.create(:medication, nui: 'N0000007070', name: 'Morphine') }
-    let(:medication3){ FactoryGirl.create(:medication, nui: 'N0000179514', name: 'Rasagline') }
-    let(:medication4){ FactoryGirl.create(:medication, nui: 'N0000147924', name: 'Metoprolol') }
-    let(:medication5){ FactoryGirl.create(:medication, nui: 'N0000147149', name: 'Naproxen') }
+  context 'nui lookup' do
+    let(:medication_name_1){ 'fluoxetine' }
+    let(:medication_name_2){ 'morphine' }
+    let(:nui_1){ 'N0000147852' }
+    let(:nui_2){ 'N0000145914' }
 
-    let(:no_interaction){ RxNav::Medication::Interaction.new(medication.nui, medication2.nui) }
-    let(:significant_interaction){ RxNav::Medication::Interaction.new(medication.nui, medication3.nui) }
-    let(:critical_interaction){ RxNav::Medication::Interaction.new(medication2.nui, medication3.nui) }
+    it 'matches nuis to the looked up value for fluoxetine' do
+      nui_lookup_1 = RxNav::Medication::Nui.new(medication_name_1)
+      nui_lookup_1.medication_nui.should == nui_1
+    end
+
+    it 'matches nui for morphine' do
+      nui_lookup_2 = RxNav::Medication::Nui.new(medication_name_2)
+      nui_lookup_2.medication_nui.should == nui_2
+    end
+
+  end
+
+  context 'looking up interactions' do
+    let(:nui1) { 'N0000147852' }
+    let(:nui2){ 'N0000145914' }
+    let(:nui3){ 'N0000179514' }
+    let(:nui4){ 'N0000147924' }
+    let(:nui5){ 'N0000147149' }
+
+    let(:no_interaction){ RxNav::Medication::Interaction.new(nui1, nui2) }
+    let(:significant_interaction){ RxNav::Medication::Interaction.new(nui1, nui3) }
+    let(:critical_interaction){ RxNav::Medication::Interaction.new(nui2, nui3) }
 
     context 'interaction with no severity' do
       it 'has an interaction document' do
-        no_interaction.document.class.should == Nokogiri::HTML::Document
+        no_interaction.interaction_document.class.should == Nokogiri::HTML::Document
       end
 
       it 'has an interaction count of 0' do
