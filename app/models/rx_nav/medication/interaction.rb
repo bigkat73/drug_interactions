@@ -12,17 +12,17 @@ module RxNav
         @url  = BASE_URL + "nui1=#{nui1}&nui2=#{nui2}&scope=2"
       end
 
-      def document
+      def interaction_document
         @interaction_document ||= Nokogiri::HTML(open(url))
       end
 
       def count
-        @count ||= document.css("fullinteractiongroup fullinteraction interactioncount").first.content.to_i
+        @count ||= (interaction_document.css("fullinteractiongroup fullinteraction interactioncount").first.content rescue 0).to_i
       end
 
       def severity
         @severity ||= if count > 0
-          document.css("fullinteractiongroup fullinteraction interactiontriple severity").first.content
+          interaction_document.css("fullinteractiongroup fullinteraction interactiontriple severity").first.content rescue ''
         else
           'none'
         end
