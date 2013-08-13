@@ -13,9 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require foundation
-//= require angular
-//= require angular-bootstrap
-//= require angular-resource
-//= require_tree
+//= require app
+//= require_tree ./angular
 
 $(document).foundation();

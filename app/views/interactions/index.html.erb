@@ -1,9 +1,9 @@
-<div class="row" ng-app="Interactions">
+<div class="row" ng-app="myApp">
   <div class="12 columns" ng-controller="MedicationsCtrl">
     <div class="large-4 columns">
       <div class="row collapse">
         <div class="small-9 columns">
-          <input type="text" placeholder="medication">
+          <input type="text" placeholder="medication" ng-model="query">
         </div>
         <div class="small-3 columns">
           <a href="#" class="button prefix">Search</a>
@@ -12,12 +12,19 @@
       <div id="medications-list-container">
         <ul>
           <li ng-repeat="medication in medications | filter:query">
-            <h3>{{medication.name}}</h3>
+            <h3><a href='#' ng-click="addMedication(medication)">{{medication.name}}</a>{{medication.id}}</h3>
           </li>
         </ul>
       </div>
     </div>
     <div class="large-8 columns">
+      <h3>Interactions</h3>
+      <h4>{{interaction_text}}</h4>
+      <ul>
+        <li ng-repeat="selected_med in selected_medications">
+          <h3>{{selected_med.name}}</h3>
+        </li>
+      </ul>
     </div>
   </div>
 </div>

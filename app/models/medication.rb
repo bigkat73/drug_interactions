@@ -12,7 +12,7 @@ class Medication < ActiveRecord::Base
     interaction.severity
   end
 
-  def formatted_interaction
+  def formatted_interaction(interaction_med)
     {
       medications: [{
         id: self.id,
@@ -21,7 +21,7 @@ class Medication < ActiveRecord::Base
         id: interaction_med.id,
         name: interaction_med.name
       }],
-      severity: severity
+      severity: interaction_severity_to(interaction_med)
     }
   end
 

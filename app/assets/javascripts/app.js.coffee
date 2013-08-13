@@ -1,1 +1,1 @@
-window.App = angular.module('Interactions', ['ngResource'])
+window.App = angular.module('myApp', ['ngResource'])

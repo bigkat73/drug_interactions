@@ -14,7 +14,7 @@ class Interactions
       	medication2 = Medication.where(id: @medication_ids[j]).first
         severity = medication1.interaction_severity_to(medication2)
         if severity != 'none'
-          interactions << medication1.formatted_interaction
+          interactions << medication1.formatted_interaction(medication2)
         end
       end
     end
