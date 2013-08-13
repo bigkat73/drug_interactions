@@ -11,8 +11,4 @@ App.controller 'MedicationsCtrl', ['$scope', 'Medication', 'Interaction', ($scop
 
     response = Interaction.get({medication_ids: $scope.selected_ids.toString()})
     $scope.interaction_text = response
-
-  $scope.clear = () ->
-    $scope.selected_medications = []
-    $scope.interaction_text = ""
 ]

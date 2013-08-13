@@ -5,7 +5,7 @@ class Medication < ActiveRecord::Base
 
   after_create :populate_rxcui, :populate_nui
 
-  scope :active, -> { where('nui IS NOT NULL AND nui != ?',"") }
+  scope :active, -> { where('nui IS NOT NULL AND nui != ?',"").order(:name) }
 
   def interaction_severity_to(medication)
     interaction = RxNav::Medication::Interaction.new(self.nui, medication.nui)
