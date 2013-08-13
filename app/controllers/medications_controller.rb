@@ -4,7 +4,7 @@ class MedicationsController < ApplicationController
   # GET /medications
   # GET /medications.json
   def index
-    @medications = Medication.active
+    @medications = Medication.active.order(:name)
     @medications = @medications.where('name like ?', params[:q].humanize + '%') if params[:q]
     #respond_to do |format|
     #  format.html
